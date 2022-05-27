@@ -1,0 +1,36 @@
+Algoritmo "desempenho do aluno"
+// Descrição   : ler duas notas de um aluno e mostrar a media final
+// Autor(a)    : Ellen
+// Data atual  : 17/05/2022
+Var
+// Seção de Declarações das variáveis 
+
+   nota1, nota2, media, aprovado, reprovado: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+   escreval("Digite a primeira nota: ")
+   leia(nota1)
+   
+   escreval("Digite a segunda nota: ")
+   leia(nota2)
+   
+   media <- (nota1 + nota2) / 2
+   escreval("A média é: ", media:2:1)
+   
+   
+   //aprovacao
+   se ( media > 5.0 ) entao
+   escreval("Aprovado.")
+
+   senao
+   
+   //reprovacao
+   se ( media < 5.0 ) entao
+   escreval("Reprovado.")
+
+   fimse
+   fimse
+   
+Fimalgoritmo
